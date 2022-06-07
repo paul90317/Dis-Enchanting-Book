@@ -1,0 +1,1 @@
+execute as @e[distance=..1,type=item,nbt={Item:{Count:1b}},nbt=!{Item:{id:"dis_enchanting_book:dis_enchanting_book"}},sort=random,limit=1] at @s run function dis_enchanting_book:tome/which_obj

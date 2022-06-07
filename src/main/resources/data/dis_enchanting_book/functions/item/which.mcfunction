@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Item:{id:"dis_enchanting_book:dis_enchanting_book"}}] run function dis_enchanting_book:tome/check
