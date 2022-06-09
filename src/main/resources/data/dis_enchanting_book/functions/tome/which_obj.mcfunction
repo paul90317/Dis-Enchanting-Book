@@ -1,0 +1,2 @@
+function dis_enchanting_book:enchantments_obj/check
+function dis_enchanting_book:stored_enchantments_obj/check
