@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dis_enchanting_book",
   "version": "${version}",
 
   "name": "Dis Enchanting Book",
@@ -9,8 +9,8 @@
     "paul90317"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/dis-enchanting-book",
+    "sources": "https://github.com/paul90317/Dis-Enchanting-Book/tree/fabric-1.19"
   },
 
   "license": "CC0-1.0",
@@ -23,7 +23,9 @@
     ]
   },
   "mixins": [
+    "dis_enchanting_book.mixin.json"
   ],
+
 
   "depends": {
     "fabricloader": ">=0.14.6",

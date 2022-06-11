@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.paul90317.dis_enchanting_book.client",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ModMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
