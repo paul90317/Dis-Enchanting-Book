@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Dis Enchanting Book",
+  "description": "move enchantment onto book.",
+  "authors": [
+    "paul90317"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/dis_enchanting_book/textures/item/dis_enchanting_book.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.paul90317.dis_enchanting_book.MainMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
